@@ -1,0 +1,72 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Henry Odhiambo"
+  email: "odhiambohenry826@gmail.com"
+  phone: "+254 720 027966"
+  location: "Nairobi,Kenya"
+  linkedin: "https://www.linkedin.com/in/odhiambo-henry-07602a406"
+  portfolio_url: "https://sites.google.com/view/henry-odhiambo"
+  github: "https://github.com/odhiambohenry829"
+  twitter: "https://x.com/odhiambohenry"
+
+target_roles:
+  primary:
+    - "Junior Software Developer"
+    - "ICT Support Specialist"
+    - "Junior Systems Administrator"
+
+  archetypes:
+    - name: "Software Developer"
+      level: "Entry-Level / Junior"
+      fit: "primary"
+
+    - name: "ICT Support Technician"
+      level: "Junior"
+      fit: "primary"
+
+    - name: "Systems Administrator"
+      level: "Junior"
+      fit: "secondary"
+
+narrative:
+  headline: "Aspiring Software Developer & ICT Systems Enthusiast"
+
+  exit_story: "Passionate ICT graduate building real-world systems, helpdesk platforms, and web applications while growing into a professional software engineer."
+
+  superpowers:
+    - "Web development (HTML, PHP, basic backend systems)"
+    - "ICT support and system troubleshooting"
+    - "Fast learner with strong adaptability"
+    - "Chess strategy and analytical thinking"
+    - "Building and improving real projects (helpdesk system, portfolio, GitHub projects)"
+
+  proof_points:
+    - name: "Helpdesk System (Helpdesk2.1)"
+      url: "http://localhost (local development project)"
+      hero_metric: "Improved system usability and login workflow debugging"
+
+    - name: "Chess Website Project"
+      url: "https://github.com/odhiambohenry829/chess-project"
+      hero_metric: "Built interactive chess platform using VS Code and web tools"
+
+    - name: "GitHub Portfolio"
+      url: "https://github.com/odhiambohenry829"
+      hero_metric: "Personal development projects and continuous learning showcase"
+
+compensation:
+  target_range: "KSh 40,000 - KSh 120,000"
+  currency: "KES"
+  minimum: "KSh 30,000"
+  location_flexibility: "Nairobi-based preferred, open to hybrid or remote internships"
+
+location:
+  country: "Kenya"
+  city: "Nairobi"
+  timezone: "EAT"
+  visa_status: "Not applicable"
+
+cv:
+  output_format: "html"
